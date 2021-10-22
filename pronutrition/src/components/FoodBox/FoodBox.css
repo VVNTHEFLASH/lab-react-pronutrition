@@ -1,0 +1,35 @@
+.box{
+    background-color: aliceblue;
+    border: 1px solid rebeccapurple;
+    width: 90vh;
+    margin: 60px;
+    border-radius: 10px;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+    height: 18vh;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.button{
+    background: rebeccapurple;
+    width: 22px;
+    height: 22px;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+.button:focus{
+    border: solid black 2px;
+}
+.input{
+    padding: 2.5px;
+    border-radius: 2px;
+    border: 2px rebeccapurple solid;
+}
+.input:focus{
+    border: black solid 2px;
+}
