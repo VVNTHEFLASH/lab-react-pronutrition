@@ -1,16 +1,15 @@
 *{
   margin: 0;
   padding: 0%;
+  font-family: sans-serif;
 }
-.head-bar{
-  width: 100%;
+.header{
+  background-color: slateblue;
+  color: #fff;
   height: 10vh;
-  background: rgb(107, 43, 226);
   display: flex;
   align-items: center;
 }
-.head-bar>h3{
-  color: white;
-  background: rgb(107, 43, 226);
-  margin-left: 40px;
+.header>h3{
+  margin-left: 50px;
 }

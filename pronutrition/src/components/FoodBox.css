@@ -1,0 +1,74 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right{
+    display: block;
+}
+.box{
+    border: 2px solid slateblue;
+    height: 120px;
+    margin: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image>img{
+    height: 100px;
+    width: 100px;
+}
+.name>p{
+    font-size: small;
+}
+.input>input[type = 'number'] {
+    padding: 3px;
+    border: slateblue solid 2px;
+    border-radius: 5px;
+}
+#btn{
+    padding: 3px;
+    width: 25px;
+    background: slateblue;
+
+}
+#btn:focus,#delete:focus{
+    outline: auto;
+}
+.SearchBox{
+    margin: 50px 100px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.SearchBox>input{
+    padding: 5px;
+    width: 200px;
+    border: solid 2px slateblue;
+    border-radius: 5px;
+}
+.TodayFoodList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+}
+#delete{
+    width: 25px;
+    height: 25px;
+    background: slateblue;
+    border-radius: 2px;
+}
